@@ -1,101 +1,104 @@
 var data = [
   {
-    "category": "React 101",
-    "questions": [
+    category: "Personajes",
+    questions: [
       {
-        "points": 100,
-        "question": "<p>What part of your application does React focus on?</p><ol><li>The Model</li><li>The View</li><li>The Controller</li><li>All of the above</li></ol>",
-        "answer": "B. The View"
+        points: 1,
+        question: "¿Quiénes fueron los 12 discípulos?",
+        answer:
+          "Pedro, Andrés, Santiago (hijo de Zebedeo), Juan, Felipe, Bartolomé, Tomás, Mateo, Santiago (hijo de Alfeo), Tadeo, Simón el Zelote y Judas."
       },
       {
-        "points": 200,
-        "question": "_____ lets you create JavaScript objects using HTML syntax",
-        "answer": "JSX"
+        points: 2,
+        question:
+          "¿Quién lo dijo? “Él no está aquí; porque Él ha resucitado “.",
+        answer: "Un ángel."
       },
       {
-        "points": 300,
-        "question": "What tool can you use to transpile JSX?",
-        "answer": "Babel"
+        points: 3,
+        question: "¿Qué discípulo era recaudador de impuestos?",
+        answer: "Mateo."
       },
       {
-        "points": 400,
-        "question": "React uses a _____________ to limit direct manipulation of the DOM and improve performance",
-        "answer": "Virtual DOM"
+        points: 4,
+        question: "¿Cuánto tiempo estuvo muerto Lázaro?",
+        answer: "Cuatro."
       }
     ]
   },
   {
-    "category": "React 201",
-    "questions": [
+    category: "Nombra el libro",
+    questions: [
       {
-        "points": 100,
-        "question": "<p>Where can you define a component's initial state when you use the ES6 Class syntax?</p><ol><li>getInitialState()</li><li>getInitialProps()</li><li>The component's constructor</li></ol>",
-        "answer": "C. The component's constructor"
+        points: 1,
+        question: "Nombra los libros que cuentan el nacimiento de Jesús.",
+        answer: "Mateo y Marcos."
       },
       {
-        "points": 200,
-        "question": "Using npm, which package should you require/import in addition to 'react' to render a React component in an existing DOM element of your HTML file?",
-        "answer": "react-dom"
+        points: 2,
+        question: "¿Cual es el primer libro del Nuevo Testamento?",
+        answer: "Mateo"
       },
       {
-        "points": 300,
-        "question": "<p>Which lifecycle function should you use to set default property values?</p><ol><li>getInitialState</li><li>getInitialProps</li><li>getDefaultProps</li></ol>",
-        "answer": "C. getDefaultProps"
+        points: 3,
+        question: "¿Cual libro de la Biblia no menciona el nombre de Dios?",
+        answer: "Ester."
       },
       {
-        "points": 400,
-        "question": "Which lifecycle method is invoked once, immediately after the initial rendering occurs?",
-        "answer": "componentDidMount"
+        points: 4,
+        question: "¿Cual es el libro con más capítulos en la Biblia?",
+        answer: "Salmos"
       }
     ]
   },
   {
-    "category": "ES 2015",
-    "questions": [
+    category: "Objetos",
+    questions: [
       {
-        "points": 100,
-        "question": "<p>Constants (const) are:</p><ol><li>Block scoped</li><li>Function scoped</li><li>Global</li></ol>",
-        "answer": "A. Block scoped"
+        points: 1,
+        question: "¿Qué fue lo segundo que envió Noé del arca?",
+        answer: "Una paloma."
       },
       {
-        "points": 200,
-        "question": "Name 3 new collection classes in ES2015",
-        "answer": "<ul><li>Map</li><li>WeakMap</li><li>Set</li><li>WeakSet</li></ul>"
+        points: 2,
+        question: "¿Qué fruta comieron Adán y Eva?",
+        answer: "No está especificado en la Biblia."
       },
       {
-        "points": 300,
-        "question": "<p>What's being logged and how is this new ES6 feature called?</p><code>var colors = ['red', 'blue', 'green'];<br/>var [primary, secondary, tertiary] = colors;<br/>console.log(secondary);</code>",
-        "answer": "<ul><li>blue</li><li>Array destructuring</li></ul>"
+        points: 3,
+        question: "¿Qué árbol maldijo Jesús?",
+        answer: "Higuera."
       },
       {
-        "points": 400,
-        "question": "<p>What's being logged and name 4 new features of ES6 used in this code snippet?</p><code>let greeting = (name, msg='Hello') => `${msg}, ${name}`;<br/>console.log(greeting('Christophe');</code>",
-        "answer": "<p>Hello, Christophe</p><ul><li>let variables</li><li>Arrow functions</li><li>Default parameters</li><li>Template strings</li></ul>"
+        points: 4,
+        question: "¿De qué madera hizo el arca Noé?",
+        answer: "Gofer."
       }
     ]
   },
   {
-    "category": "Feeling Lucky",
-    "questions": [
+    category: "Lugares",
+    questions: [
       {
-        "points": 100,
-        "question": "Using the proposed ECMAScript module syntax, how do you load the Mortgage.js module from the current directory and make all its members available in an object named mortgage?",
-        "answer": "<code>import * as mortgage from './Mortgage';</code>"
+        points: 1,
+        question: "¿Dónde recibió Moisés los Diez Mandamientos?",
+        answer: "Monte Sinaí."
       },
       {
-        "points": 200,
-        "question": "What are the colors of the olympic rings?",
-        "answer": "<img src='assets/img/olympic_rings.png'/>"
+        points: 2,
+        question: "¿Qué mar calmó Jesús?",
+        answer: "El mar de Galilea."
       },
       {
-        "points": 300,
-        "question": "What's the date of the first React commit on GitHub?",
-        "answer": "May 26th, 2013"
+        points: 3,
+        question: "¿Dónde fue Jesús crucificado?",
+        answer: "Gólgota."
       },
       {
-        "points": 400,
-        "question": "What's the hex color of the React logo?",
-        "answer": "#61DAFB"
+        points: 4,
+        question:
+          "¿Qué ciudad se derrumbó después de que los Israelitas marcharon a su alrededor durante siete días?",
+        answer: "Jericó (Josué 6:20)."
       }
     ]
   }
